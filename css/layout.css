@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * "Yet Another Multicolumn Layout" - YAML CSS Framework
  *
@@ -8,7 +9,7 @@
  *                  YAML-CDL (http://www.yaml.de/license.html)
  * @link            http://www.yaml.de
  * @package         yaml
- * @version         4.1.2
+ * @version         ### version ###
  */
 /* YAML Framework Components */
 @media all {
@@ -2186,7 +2187,7 @@
     color: #888;
   }
 
-  .box {
+  .box, .codehilite {
     border-radius: 0.3em;
     border-width: 1px;
     border-style: solid;
@@ -2199,7 +2200,7 @@
     padding: 1.42857em;
     margin: 0 0 1.5em 0;
   }
-  .box > *:last-child {
+  .box > *:last-child, .codehilite > *:last-child {
     margin-bottom: 0;
   }
 
@@ -2495,7 +2496,7 @@
   header h2 {
     font-family: 'Yanone Kaffeesatz', Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 120px;
+    font-size: 90px;
     color: #8b8f90;
     border: 0 none;
     text-shadow: 1px 1px 1px black;
@@ -3259,4 +3260,196 @@
   .ym-form input[type="submit"] {
     margin-bottom: 0.25em;
   }
+}
+.syntax, .codehilite {
+  background: #272822;
+  color: #f8f8f2;
+}
+.syntax .hll, .codehilite .hll {
+  background-color: #49483e;
+}
+.syntax .c, .codehilite .c {
+  color: #75715e;
+}
+.syntax .err, .codehilite .err {
+  color: #960050;
+  background-color: #1e0010;
+}
+.syntax .k, .codehilite .k {
+  color: #66d9ef;
+}
+.syntax .l, .codehilite .l {
+  color: #ae81ff;
+}
+.syntax .n, .codehilite .n {
+  color: #f8f8f2;
+}
+.syntax .o, .codehilite .o {
+  color: #f92672;
+}
+.syntax .p, .codehilite .p {
+  color: #f8f8f2;
+}
+.syntax .cm, .codehilite .cm, .syntax .cp, .codehilite .cp, .syntax .c1, .codehilite .c1, .syntax .cs, .codehilite .cs {
+  color: #75715e;
+}
+.syntax .ge, .codehilite .ge {
+  font-style: italic;
+}
+.syntax .gs, .codehilite .gs {
+  font-weight: bold;
+}
+.syntax .kc, .codehilite .kc, .syntax .kd, .codehilite .kd {
+  color: #66d9ef;
+}
+.syntax .kn, .codehilite .kn {
+  color: #f92672;
+}
+.syntax .kp, .codehilite .kp, .syntax .kr, .codehilite .kr, .syntax .kt, .codehilite .kt {
+  color: #66d9ef;
+}
+.syntax .ld, .codehilite .ld {
+  color: #e6db74;
+}
+.syntax .m, .codehilite .m {
+  color: #ae81ff;
+}
+.syntax .s, .codehilite .s {
+  color: #e6db74;
+}
+.syntax .na, .codehilite .na {
+  color: #a6e22e;
+}
+.syntax .nb, .codehilite .nb {
+  color: #f8f8f2;
+}
+.syntax .nc, .codehilite .nc {
+  color: #a6e22e;
+}
+.syntax .no, .codehilite .no {
+  color: #66d9ef;
+}
+.syntax .nd, .codehilite .nd {
+  color: #a6e22e;
+}
+.syntax .ni, .codehilite .ni {
+  color: #f8f8f2;
+}
+.syntax .ne, .codehilite .ne, .syntax .nf, .codehilite .nf {
+  color: #a6e22e;
+}
+.syntax .nl, .codehilite .nl, .syntax .nn, .codehilite .nn {
+  color: #f8f8f2;
+}
+.syntax .nx, .codehilite .nx {
+  color: #a6e22e;
+}
+.syntax .py, .codehilite .py {
+  color: #f8f8f2;
+}
+.syntax .nt, .codehilite .nt {
+  color: #f92672;
+}
+.syntax .nv, .codehilite .nv {
+  color: #f8f8f2;
+}
+.syntax .ow, .codehilite .ow {
+  color: #f92672;
+}
+.syntax .w, .codehilite .w {
+  color: #f8f8f2;
+}
+.syntax .mf, .codehilite .mf, .syntax .mh, .codehilite .mh, .syntax .mi, .codehilite .mi, .syntax .mo, .codehilite .mo {
+  color: #ae81ff;
+}
+.syntax .sb, .codehilite .sb, .syntax .sc, .codehilite .sc, .syntax .sd, .codehilite .sd, .syntax .s2, .codehilite .s2 {
+  color: #e6db74;
+}
+.syntax .se, .codehilite .se {
+  color: #ae81ff;
+}
+.syntax .sh, .codehilite .sh, .syntax .si, .codehilite .si, .syntax .sx, .codehilite .sx, .syntax .sr, .codehilite .sr, .syntax .s1, .codehilite .s1, .syntax .ss, .codehilite .ss {
+  color: #e6db74;
+}
+.syntax .bp, .codehilite .bp, .syntax .vc, .codehilite .vc, .syntax .vg, .codehilite .vg, .syntax .vi, .codehilite .vi {
+  color: #f8f8f2;
+}
+.syntax .il, .codehilite .il {
+  color: #ae81ff;
+}
+
+/* Comment */
+/* Error */
+/* Keyword */
+/* Literal */
+/* Name */
+/* Operator */
+/* Punctuation */
+/* Comment.Multiline */
+/* Comment.Preproc */
+/* Comment.Single */
+/* Comment.Special */
+/* Generic.Emph */
+/* Generic.Strong */
+/* Keyword.Constant */
+/* Keyword.Declaration */
+/* Keyword.Namespace */
+/* Keyword.Pseudo */
+/* Keyword.Reserved */
+/* Keyword.Type */
+/* Literal.Date */
+/* Literal.Number */
+/* Literal.String */
+/* Name.Attribute */
+/* Name.Builtin */
+/* Name.Class */
+/* Name.Constant */
+/* Name.Decorator */
+/* Name.Entity */
+/* Name.Exception */
+/* Name.Function */
+/* Name.Label */
+/* Name.Namespace */
+/* Name.Other */
+/* Name.Property */
+/* Name.Tag */
+/* Name.Variable */
+/* Operator.Word */
+/* Text.Whitespace */
+/* Literal.Number.Float */
+/* Literal.Number.Hex */
+/* Literal.Number.Integer */
+/* Literal.Number.Oct */
+/* Literal.String.Backtick */
+/* Literal.String.Char */
+/* Literal.String.Doc */
+/* Literal.String.Double */
+/* Literal.String.Escape */
+/* Literal.String.Heredoc */
+/* Literal.String.Interpol */
+/* Literal.String.Other */
+/* Literal.String.Regex */
+/* Literal.String.Single */
+/* Literal.String.Symbol */
+/* Name.Builtin.Pseudo */
+/* Name.Variable.Class */
+/* Name.Variable.Global */
+/* Name.Variable.Instance */
+/* Literal.Number.Integer.Long */
+.codehilite pre {
+  color: #f8f8f2;
+}
+
+.box.error a:hover, .error.codehilite a:hover {
+  color: white;
+  background-color: #640000;
+}
+
+.box.error a, .error.codehilite a {
+  color: #640000;
+  text-decoration: underline;
+}
+
+h2 a {
+  color: black;
 }

@@ -1,0 +1,3 @@
+[submodule "sass/sass-pygments"]
+	path = sass/sass-pygments
+	url = https://github.com/dwayne/sass-pygments.git

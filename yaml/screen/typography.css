@@ -12,7 +12,7 @@
  * @version         4.1.2
  */
 @media all {
-  /*
+  /*!
   * @section global typography settings
   *
   * vertical rhythm settings (based on em-unit)
@@ -41,11 +41,11 @@
     font-family: Consolas, "Lucida Console", "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier;
   }
 
-  /* font-size: 14px; */
+  /*! font-size: 14px; */
   body {
     font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
     font-size: 87.5%;
-    color: #444444;
+    color: #444;
   }
 
   /*--- Headings | Überschriften ------------------------------------------------------------------------*/
@@ -62,42 +62,42 @@
   }
 
   h1 {
-    /* font-size: 48px; */
+    /*! font-size: 48px; */
     font-size: 342.85714%;
     line-height: 0.875;
     margin: 0 0 0.4375em 0;
   }
 
   h2 {
-    /* font-size: 32px; */
+    /*! font-size: 32px; */
     font-size: 228.57143%;
     line-height: 1.3125;
     margin: 0 0 0.65625em 0;
   }
 
   h3 {
-    /* font-size: 24px; */
+    /*! font-size: 24px; */
     font-size: 171.42857%;
     line-height: 0.875;
     margin: 0 0 0.875em 0;
   }
 
   h4 {
-    /* font-size: 21px; */
+    /*! font-size: 21px; */
     font-size: 150%;
     line-height: 1;
     margin: 0 0 1em 0;
   }
 
   h5 {
-    /* font-size: 18px; */
+    /*! font-size: 18px; */
     font-size: 128.57143%;
     line-height: 1.16667;
     margin: 0 0 1.16667em 0;
   }
 
   h6 {
-    /* font-size: 14px; */
+    /*! font-size: 14px; */
     font-size: 100%;
     font-weight: bold;
     line-height: 1.5;
@@ -166,7 +166,7 @@
 
   blockquote {
     background: transparent;
-    color: #666666;
+    color: #666;
     margin: 1.5em 0 0 1.5em;
   }
 
@@ -181,13 +181,13 @@
   }
 
   big {
-    /* font-size: 16px; */
+    /*! font-size: 16px; */
     font-size: 114.28571%;
     line-height: 1.3125;
   }
 
   small {
-    /* font-size: 12px; */
+    /*! font-size: 12px; */
     font-size: 85.71429%;
     line-height: 1.75;
   }
@@ -212,14 +212,14 @@
 
   pre,
   code {
-    color: #880000;
+    color: #800;
   }
 
   kbd,
   samp,
   var,
   tt {
-    color: #666666;
+    color: #666;
     font-weight: bold;
   }
 
@@ -253,8 +253,8 @@
   }
 
   mark {
-    background: yellow;
-    color: black;
+    background: #ff0;
+    color: #000;
   }
 
   hr {
@@ -263,7 +263,7 @@
     margin: 0 0 0.75em 0;
     padding: 0 0 0.67857em 0;
     border: 0;
-    border-bottom: 1px #eeeeee solid;
+    border-bottom: 1px #eee solid;
   }
 
   /*--- Links ----------------------------------------------------------------------------------------- */
@@ -282,7 +282,7 @@
   a:hover,
   a:focus {
     background-color: #4d87c7;
-    color: white;
+    color: #fff;
     text-decoration: none;
   }
 
@@ -322,11 +322,11 @@
   * @section content-generic-classes
   */
   .highlight {
-    color: #cc3300;
+    color: #c30;
   }
 
   .dimmed {
-    color: #888888;
+    color: #888;
   }
 
   .box {
@@ -365,15 +365,15 @@
   }
 
   .success {
-    background: #88cc88;
+    background: #8c8;
   }
 
   .warning {
-    background: #cccc88;
+    background: #cc8;
   }
 
   .error {
-    background: #cc8888;
+    background: #c88;
   }
 
   .float-left {
@@ -407,7 +407,7 @@
   table {
     width: 100%;
     border-collapse: collapse;
-    color: #444444;
+    color: #444;
     border-top: 1px #ccc solid;
     border-bottom: 1px #ccc solid;
     margin: 0 0 1.35714em 0;
