@@ -267,16 +267,15 @@
 		overflow: hidden;
 		text-shadow: 1px 1px 1px rgba(0,0,0,.8);
 	}
-	.mnav li.active {
-		background-color: #2a3134;
+    .mnav li.active {
+        background-color: #2a3134;
+        /* IE5.5 - IE7 */
+        filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FF2A3134,EndColorStr=#FF3E4447);
+        /* IE8 */
+        -ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FF2A3134,EndColorStr=#FF3E4447)";
 
-		/* IE5.5 - IE7 */
-		filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FF2A3134,EndColorStr=#FF3E4447);
-
-		/* IE8 */
-		-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FF2A3134,EndColorStr=#FF3E4447)";
-		zoom: 1;
-	}
+        zoom: 1;
+    }
 
 	.mnav li strong,
 	.mnav li a {
@@ -325,7 +324,7 @@
 	}
 
 	.mnav li a:hover,
-	.mnav li a:focus,
+	//.mnav li a:focus {
 	.mnav li a:active {
 		color:#fff;
 		@include ym-box-shadow(0,-24px,30px,rgba(255,255,255,.2),inset);
@@ -334,9 +333,13 @@
 		-moz-transition: background-color .1s linear;
 		transition: background-color .1s linear;
 	}
+    .mnav li a:focus{
+		background-color: transparent;
+
+		zoom: 1;
+	}
 
 	.mnav li a:hover span,
-	.mnav li a:focus span,
 	.mnav li a:active span {
 		color:rgba(255,255,255,.7);
 	}
