@@ -2125,7 +2125,7 @@
 
   /*--- Links ----------------------------------------------------------------------------------------- */
   a {
-    color: #d04109;
+    color: #4d87c7;
     background: transparent;
     text-decoration: none;
   }
@@ -2138,7 +2138,7 @@
   /* (en) Maximaler Kontrast für Tab Focus - Ändern Sie diese Regel mit Bedacht */
   a:hover,
   a:focus {
-    background-color: #d04109;
+    background-color: #4d87c7;
     color: #fff;
     text-decoration: none;
   }
